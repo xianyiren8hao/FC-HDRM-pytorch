@@ -2614,22 +2614,6 @@
    </hints>
   </connection>
   <connection>
-   <sender>SB_imagecount</sender>
-   <signal>valueChanged(int)</signal>
-   <receiver>NNWindow</receiver>
-   <slot>Icount_vchanged(int)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>217</x>
-     <y>463</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>354</x>
-     <y>-229</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
    <sender>PB_savewfile</sender>
    <signal>clicked()</signal>
    <receiver>NNWindow</receiver>
@@ -2722,6 +2706,22 @@
     <hint type="destinationlabel">
      <x>1083</x>
      <y>-163</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>SB_imagecount</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>NNWindow</receiver>
+   <slot>Icount_vchanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>211</x>
+     <y>448</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>387</x>
+     <y>-176</y>
     </hint>
    </hints>
   </connection>
